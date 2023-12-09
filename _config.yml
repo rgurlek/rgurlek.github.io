@@ -257,7 +257,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
   # _blog
   - scope:
       path: ""
@@ -266,7 +265,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comment: true
 
 
 # Sass/SCSS
