@@ -190,6 +190,9 @@ collections:
   software:
     output: true
     permalink: /:collection/:path/
+  blog:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
