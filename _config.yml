@@ -249,11 +249,22 @@ defaults:
   # _software
   - scope:
       path: ""
-      type: software
+      type: portfolio
     values:
-      layout: software
+      layout: single
       author_profile: true
       share: true
+      comment: true
+  # _blog
+  - scope:
+      path: ""
+      type: blog
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
 
 # Sass/SCSS
 sass:
