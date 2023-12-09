@@ -1,6 +1,6 @@
 ---
 title: "FAIRforecast"
-excerpt: "FAIR is a forecasting tool developed to support decision-making in a retail environment. Click on the title to read more. <br/><img src='/images/FAIR.png' width = '500'>"
+excerpt: "FAIR is a forecasting tool developed to support decision-making in the retail environment. Click on the title to read more. <br/> <br/><img src='/images/FAIR.png' width = '500'>"
 collection: software
 ---
 

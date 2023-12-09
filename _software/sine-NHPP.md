@@ -1,7 +1,7 @@
 ---
 title: "sine-NHPP"
 excerpt: "Python software for predicting customer arrivals with sine waves. Cycles are
-automatically discovered and coefficients are estimated accordingly. <br/><img src='/images/sineNHPP.png'  width = '500'>"
+automatically discovered and coefficients are estimated accordingly. Click on the title to read more. <br/><img src='/images/sineNHPP.png'  width = '500'>"
 collection: software
 ---
 
