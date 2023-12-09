@@ -1,7 +1,7 @@
 ---
 title: "sine-NHPP"
 excerpt: "Python software for predicting customer arrivals with sine waves. Cycles are
-automatically discovered and coefficients are estimated accordingly. <br/><img src='/images/sineNHPP.png'>"
+automatically discovered and coefficients are estimated accordingly. <br/><img src='/images/sineNHPP.png'  width = '500'>"
 collection: software
 ---
 
@@ -13,7 +13,9 @@ The installation guide can be found [here](https://github.com/rgurlek/sine-NHPP#
 Please refer to Appendix A of [Chen et al. (2023)](#suggested-citations) for details of the procedure,
 which is a simpler variant of the one proposed in [Chen, Lee, and Negahban (2019)](#suggested-citations).
 
-![](/images/FAIR.png){:class="img-responsive"}
+<br/>
+
+![](/images/sineNHPP.png){:class="img-responsive"}
 
 ## Suggested citations
 - Chen, Gurlek, Lee, Shen (2023): [Can customer arrival rates be modelled by sine waves?](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3125120) (Joint issue in *Service Science* and *Stochastic Systems*, forthcoming)
