@@ -2,7 +2,7 @@
 title: "Bundle Personalization with Satiation"
 excerpt: "An interactive demonstration of the procedure proposed in
 [R Gürlek, M Baucells, N Osadchiy](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4648305)
-to estimate the satiation in a sequencial enjoyment of experiential goods. Click on the title to read more. <br/> <br/><img src='/images/satiation.png' width = '500'>"
+to estimate the satiation in a sequencial enjoyment of experiential goods. Click on the title to read more. <br/> <br/><img src='/images/satiation.png' width = '700'>"
 collection: software
 ---
 
