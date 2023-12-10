@@ -1,11 +1,13 @@
 ---
 layout: archive
+title: ""
 permalink: /publications/
 author_profile: true
 ---
 
 ### Under Review
-- R Gürlek, DS KC, P Letizia. [Impact of Temporary Store Closures on Online Sales: Evidence from a Natural Experiment](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4245832). *2nd round* at Manufacturing & Service Operations Management
+- R Gürlek, DS KC, P Letizia. [Impact of Temporary Store Closures on Online Sales: Evidence from a Natural Experiment](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4245832). *2nd round* at Manufacturing & Service Operations Management.
+	- Finalist for Best Student Paper Competition by Production and Operations Management Society's College of Supply Chain Management 
    <details><summary> Abstract </summary> <br> <b>Problem definition:</b> This paper examines the impact of retail store closures on omnichannel sales and consumer shopping behavior in the context of the COVID-19 pandemic. To explain the likelihood of store closure, we develop a novel instrumental variable motivated by varying geopolitical responses across the US to the pandemic. <br><b>Methodology/Results:</b> Using data from a luxury fashion retailer, we find that when a store is closed, the volume of online orders originating from its location increases by 24%. Furthermore, when the retailer closes 10% of its stores, the omnichannel total sales (offline + online) decrease by 5.5%. Notably, our findings indicate that the online channel enables the retailer to recover 11% of offline sales that would have otherwise been lost due to store closures. We also show that compared to existing e-shoppers, new e-shoppers are more likely to order popular product models in an effort to mitigate the heightened mismatch risk associated with online transactions. For new e-shoppers, the likelihood of ordering a popular model stands at 70%, whereas it is 45% for existing online consumers. Additionally, the conservative behavior of favoring popular models reduces the likelihood of returns by new e-shoppers. <br><b>Managerial implications:</b> Even for luxury apparel often associated with in-store purchases requiring “touch and feel” and customer tryout, the option to purchase online proves immensely valuable. The tendency of new e-shoppers to limit product mismatch risk by choosing popular products may create an opportunity for retailers to strategically target these inexperienced online customers with advertisements, product promotions, or virtual fitting rooms, all geared toward reducing online shopping risk of product mismatch. </details>
 
 - R Gürlek, M Baucells, N Osadchiy. [Optimal Design and Pricing of Sequenced Bundles in the Presence of Satiation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4648305). 
