@@ -5,6 +5,8 @@ permalink: /publications/
 author_profile: true
 ---
 
+You can also find my articles on my [Google Scholar profile](https://scholar.google.com.tr/citations?user=DQBndrcAAAAJ&hl=en).
+
 ### Under Review
 - R Gürlek, DS KC, P Letizia. [Impact of Temporary Store Closures on Online Sales: Evidence from a Natural Experiment](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4245832). *2nd round* at Manufacturing & Service Operations Management.
 	- Finalist for Best Student Paper Competition by Production and Operations Management Society's College of Supply Chain Management 
