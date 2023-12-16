@@ -199,8 +199,6 @@ defaults:
       layout: single
       author_profile: true
       share: true
-      comments: true
-      sitemap: false
   # _software
   - scope:
       path: ""
