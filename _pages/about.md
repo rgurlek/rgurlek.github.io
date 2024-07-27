@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Information Systems and Operations Management at Goizueta Business School of Emory University. My research focuses on Retail Operations problems such as channel management, product returns, and managing customer asset balances.
+I am a Ph.D. candidate in Information Systems and Operations Management at Goizueta Business School of Emory University. My research focuses on on developing and applying machine learning tools to tackle data-driven operations questions. My current interests include context-dependent modeling of arrivals and sojourn times in healthcare, as well as product returns and channel management in the retail industry. 
