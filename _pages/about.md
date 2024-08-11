@@ -8,4 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. candidate in Information Systems and Operations Management at Goizueta Business School of Emory University. My research focuses on developing and applying machine learning tools to tackle data-driven operations questions. My current interests include contextual modeling of arrivals and sojourn times in healthcare, as well as product returns and channel management in the retail industry.
+I am a Ph.D. candidate in Information Systems and Operations Management at Goizueta Business School of Emory University. My research focuses on developing and applying machine learning tools to tackle data-driven operations questions. My current interests include contextual modeling of patient flow in hospitals, as well as product returns and channel management in the retail industry.
