@@ -9,5 +9,5 @@ main:
   - title: "Software"
     url: /Software/
 
-  - title: "Blog"
-    url: /Blog/
+#  - title: "Blog"
+#    url: /Blog/
