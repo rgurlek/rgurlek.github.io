@@ -1,11 +1,9 @@
 ---
-title: "BUS 324 Descriptive Statistics Interactive Sandbox Applet"
+title: "Descriptive Statistics Case Study"
 excerpt: "An interactive, story-driven data simulation that contextualizes statistical abstractions into a continuous operational narrative for business analytics students."
 collection: teaching
 type: "app"
 date: 2026-05-29
-header:
-  teaser: "app-teaser.png"
 tags:
   - Statistics
   - Business Analytics
@@ -19,8 +17,6 @@ tags:
 This interactive web application replaces traditional, static teaching materials with a live, story-driven data simulation. Designed for undergraduate business analytics students, the sandbox contextualizes statistical abstractions into a continuous operational narrative. By marrying data description principles with a cloud database infrastructure, the applet builds critical data empathy, provides an active learning laboratory, and delivers an immediate feedback loop for student data modifications.
 
 [Click here to launch the app in a new window](https://your-app-url-here.com)
-
-![App Screenshot Placeholder](https://your-screenshot-url-here.com)
 
 ---
 
