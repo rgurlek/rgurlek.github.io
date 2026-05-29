@@ -17,9 +17,8 @@ tags:
 
 {% include base_path %}
 
-{% include notice type="info" %}
 **Prerequisites:** You must have R and RStudio installed. Familiarity with LaTeX or Markdown is helpful for designing the question templates.
-{% endinclude %}
+{: .notice--info}
 
 ## Introduction
 Manual quiz entry in Canvas is tedious and prone to error. Using the `exams` package, we can write a single question template and generate infinite variations.
@@ -52,9 +51,8 @@ Use the following function to create a `.zip` file that you can import directly 
 exams2canvas("derivative.Rmd", n = 50, dir = "output", name = "calculus-quiz")
 ```
 
-{% include notice type="warning" %}
 **Common Pitfall:** Canvas requires images to be embedded carefully. If your questions include plots, ensure you set `selfcontained = TRUE` in the export function.
-{% endinclude %}
+{: .notice--warning}
 
 ## Conclusion
 This workflow saves hours of grading and prevents cheating by ensuring every student gets a unique version of the same conceptual problem.
