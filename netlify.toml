@@ -4,3 +4,6 @@
 
 [context.deploy-preview]
   command = "bundle exec jekyll build --config _config.yml,_config_preview.yml"
+
+[context.branch-deploy]
+  command = "bundle exec jekyll build --config _config.yml,_config_preview.yml"
