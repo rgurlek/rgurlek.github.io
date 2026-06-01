@@ -200,7 +200,7 @@ defaults:
       type: teaching
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
   # _software
   - scope:
@@ -208,7 +208,7 @@ defaults:
       type: Software
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
   # _blog
   - scope:
@@ -216,7 +216,7 @@ defaults:
       type: Blog
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       share: true
 
 

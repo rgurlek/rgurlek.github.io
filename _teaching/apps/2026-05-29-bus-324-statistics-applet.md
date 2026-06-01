@@ -9,15 +9,13 @@ tags:
   - Business Analytics
   - Excel
   - Interactive Learning
+link: "https://week2-desc-stats.vercel.app/"
 ---
 
 <!--
 GEMINI COMMENTS
 REMOVE THESE COMMENTS ONCE YOU PROCESS THEM. Only remove the numbered parts and
 keep the rest of the structure for future use.
-1- Currently, it shows the type and year at the top of the page ("app, , 2026"). Disable that.
-2- Add a third point to the Pedagogical Objectives & Motivations section to emphasize how realistic cases help students 
-have a glimpse of how data science tools and concepts are utilized in real business settings.
 GEMINI COMMENTS
 -->
 
@@ -25,9 +23,9 @@ GEMINI COMMENTS
 
 This interactive web application replaces traditional, static teaching materials with a live, story-driven data simulation. Designed for undergraduate business analytics students, the simulation contextualizes statistical abstractions into a continuous narrative. The applet builds data empathy, provides an active learning laboratory, and delivers an immediate feedback loop for student data modifications.
 
-[Click here to launch the app in a new window](https://your-app-url-here.com)
+[Click here to launch the app in a new window]({{ page.link }})
 
-[IMAGE WILL BE HERE]
+<img src="{{ base_path }}/images/app-week2.png" alt="{{ page.title }}" style="width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 ---
 
@@ -35,6 +33,7 @@ This interactive web application replaces traditional, static teaching materials
 
 * **Developing Structural Data Empathy:** Rather than treating data as abstract number grids, the application contextualizes every record within an ongoing business narrative, training students to see the operational realities behind corporate numbers.
 * **Encouraging Critical Inquiry:** The applet moves students past the simple calculation phase (*"What formula do I type?"*) and pushes them into critical evaluation (*"What does this statistical distribution actually imply about our operational capacity?"*).
+* **Bridging Theory and Practice:** By working with realistic, story-driven scenarios, students gain a clear glimpse into how data science tools and concepts are actually applied to solve complex problems in real-world business settings.
 
 ---
 

@@ -12,7 +12,7 @@ excerpt: "Interactive analytics teaching tools and practical tutorials for busin
 
 {% include base_path %}
 
-## 🚀 Interactive Analytics Applets
+## 📊 Interactive Analytics Applets
 *Interactive web applications designed for classroom demonstrations and student exploration.*
 
 <div class="feature__wrapper">
@@ -27,7 +27,7 @@ excerpt: "Interactive analytics teaching tools and practical tutorials for busin
           <a href="{{ app.url | prepend: base_path }}">{{ app.title }}</a>
         </h3>
         <p class="archive__item-excerpt" style="font-size: 0.85em;">{{ app.excerpt | truncate: 120 }}</p>
-        <a href="{{ app.url | prepend: base_path }}" class="btn btn--primary btn--small">Launch Live App</a>
+        <a href="{% if app.link %}{{ app.link }}{% else %}{{ app.url | prepend: base_path }}{% endif %}" class="btn btn--primary btn--small">Launch Live App</a>
       </div>
     {% endfor %}
   </div>
@@ -35,7 +35,7 @@ excerpt: "Interactive analytics teaching tools and practical tutorials for busin
 
 <hr style="margin: 40px 0;">
 
-## 🎓 Instructional Guides & Resources
+## 📝 Instructional Guides & Resources
 *Practical tutorials and automated workflows designed to support instructors and streamline academic tasks.*
 
 {% assign tutorials = site.teaching | where: "type", "tutorial" | sort: "date" | reverse %}
