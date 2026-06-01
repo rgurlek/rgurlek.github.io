@@ -23,13 +23,10 @@ excerpt: "Interactive analytics tools and technical tutorials for business analy
         {% if app.header.teaser %}
           <img src="{{ base_path }}/images/{{ app.header.teaser }}" alt="{{ app.title }}" style="border-radius: 4px; margin-bottom: 10px;">
         {% endif %}
-        <h3 class="archive__item-title" style="margin-top: 0;">{{ app.title }}</h3>
+        <h3 class="archive__item-title" style="margin-top: 0;">
+          <a href="{{ app.url | prepend: base_path }}">{{ app.title }}</a>
+        </h3>
         <p class="archive__item-excerpt" style="font-size: 0.85em;">{{ app.excerpt | truncate: 120 }}</p>
-        <div style="margin-bottom: 15px;">
-          {% for tag in app.tags %}
-            <span class="label label--info" style="font-size: 0.7em;">{{ tag }}</span>
-          {% endfor %}
-        </div>
         <a href="{{ app.url | prepend: base_path }}" class="btn btn--primary btn--small">Launch Live App</a>
       </div>
     {% endfor %}
@@ -38,8 +35,8 @@ excerpt: "Interactive analytics tools and technical tutorials for business analy
 
 <hr style="margin: 40px 0;">
 
-## 📝 Tutorials & Guides
-*In-depth technical posts on R, data science, and academic automation.*
+## 🎓 Instructional Guides & Resources
+*Practical tutorials and automated workflows designed to support instructors and streamline academic tasks.*
 
 {% assign tutorials = site.teaching | where: "type", "tutorial" | sort: "date" | reverse %}
 {% for post in tutorials %}
