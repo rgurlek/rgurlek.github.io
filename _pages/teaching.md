@@ -7,7 +7,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /images/teaching-header.jpg
-excerpt: "Interactive analytics tools and technical tutorials for business analytics and econometrics."
+excerpt: "Interactive analytics teaching tools and practical tutorials for business analytics instructors."
 ---
 
 {% include base_path %}
