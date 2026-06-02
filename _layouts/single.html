@@ -45,14 +45,10 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {{ content }}
-        {% if page.link %}
+        {% if page.link and page.collection != 'teaching' %}
           <div>
             <a href="{{ page.link }}" class="btn">
-              {% if page.collection == 'teaching' %}
-                Launch Live App
-              {% else %}
-                {{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}
-              {% endif %}
+              {{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}
             </a>
           </div>
         {% endif %}

@@ -23,6 +23,8 @@ GEMINI COMMENTS
 
 This interactive web application replaces traditional, static teaching materials with a live, story-driven data simulation. Designed for undergraduate business analytics students, the simulation contextualizes statistical abstractions into a continuous narrative. The applet builds data empathy, provides an active learning laboratory, and delivers an immediate feedback loop for student data modifications.
 
+<a href="{{ page.link }}" class="btn btn--primary btn--large">Launch Live App</a>
+
 <img src="{{ base_path }}/images/app-week2.png" alt="{{ page.title }}" style="width: 100%; border-radius: 8px; margin: 20px 0; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 
 ---
