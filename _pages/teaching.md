@@ -36,7 +36,7 @@ excerpt: "Interactive analytics teaching tools and practical tutorials for busin
 <hr style="margin: 40px 0;">
 
 ## 📝 Instructional Guides & Resources
-*Practical tutorials and automated workflows designed to support instructors and streamline academic tasks.*
+*Practical tutorials and automated workflows designed to support instructors and streamline course management tasks.*
 
 {% assign tutorials = site.teaching | where: "type", "tutorial" | sort: "date" | reverse %}
 {% for post in tutorials %}
