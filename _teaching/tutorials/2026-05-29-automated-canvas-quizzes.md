@@ -1,20 +1,17 @@
 ---
 title: "Automated Canvas Quiz Generation with R exams"
-excerpt: "A comprehensive, replicable guide to building randomized, data-driven assignments using R `exams`, `worldfootballR`, and `vvcanvas`."
+excerpt: "A comprehensive, replicable guide to building randomized, data-driven assignments using exams package in R."
 collection: teaching
 type: "tutorial"
-date: 2026-05-29
+date: 2026-06-06
 header:
-  teaser: "r-exams-teaser.png"
 toc: true
 toc_label: "Post Contents"
 toc_icon: "list"
 tags:
   - R
   - Canvas
-  - EdTech
   - Automation
-  - Sports Analytics
 ---
 
 {% include base_path %}
@@ -24,6 +21,9 @@ Manual quiz entry in Canvas is tedious and prone to error. In this approach, the
 
 ## Motivation: Accountability Through Uniqueness
 I design realistic data-driven business challenges for individual assignments. By ensuring every student has a unique "correct" answer based on their specific dataset, I can encourage peer collaboration while strictly enforcing individual accountability. Students can discuss methods and formulas, but they cannot simply 'borrow' answers.
+
+![Student view of the Canvas Quiz](/images/canvas-quiz.png)
+   2 {: .align-center}
 
 ---
 
@@ -289,5 +289,3 @@ update_quiz(canvas, course_id, quiz_id, quiz_params = list(
 ## Conclusion
 By separating the **Question Design** from the **Compilation Logic**, you create a modular system that can scale from a single quiz to an entire semester's worth of automated assessments. The result is a high-integrity, professional environment where every student is challenged by a truly unique problem.
 
-![Placeholder: Screenshot of the final Canvas quiz showing the dropdown menus and the individualized download link](canvas-quiz-final.png)
-{: .text-center}
