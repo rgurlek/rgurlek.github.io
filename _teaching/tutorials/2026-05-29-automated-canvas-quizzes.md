@@ -179,31 +179,50 @@ Notice the Markdown table at the end of the question block. This table is not ju
 ````markdown
 Question
 ========
-You are a data analyst for San Diego FC (SDFC), a Major League Soccer (MLS) team that began play in 2025. Your focus is international scouting, particularly from European leagues, to identify potential transfer targets.
+You are a data analyst for San Diego FC (SDFC), a Major League Soccer 
+(MLS) team that began play in 2025. Your focus is international scouting, 
+particularly from European leagues, to identify potential transfer targets.
 
-To aid in this process, you will build a regression model using data exclusively from players in Europe's top five leagues. The goal is to use this European benchmark model to project a player's passing ability, helping the team assess if a potential signing's style will translate well to SDFC's system.
+To aid in this process, you will build a regression model using data 
+exclusively from players in Europe's top five leagues. The goal is to 
+use this European benchmark model to project a player's passing ability, 
+helping the team assess if a potential signing's style will translate 
+well to SDFC's system.
 
-The model will predict a player's completed passes per game based on the average number of times the player makes contact with the ball and their playing position.
+The model will predict a player's completed passes per game based on the 
+average number of times the player makes contact with the ball and their 
+playing position.
 
 **The Variables**
 
-1.  `Completed_Passes`: The average number of completed passes per 90 minutes by the player.
+1.  `Completed_Passes`: The average number of completed passes per 90 
+    minutes by the player.
 
-2.  `Position`: The primary playing position of the player (e.g., Forward, Midfielder, Defender).
+2.  `Position`: The primary playing position of the player (e.g., Forward, 
+    Midfielder, Defender).
 
 3. `Touches`: The average number of times the player makes contact with the ball.
 
-Download the dataset from [this link](`r download_url`) and answer the following questions by building a regression model. Use `FW` as your reference/baseline category for `Position`.
+Download the dataset from [this link](`r download_url`) and answer the 
+following questions by building a regression model. Use `FW` as your 
+reference/baseline category for `Position`.
 
 **Exercise Questions**
 
-**Part 1** What is the interpretation of the coefficient for the `Touches` variable.
+**Part 1** What is the interpretation of the coefficient for the 
+`Touches` variable.
 
-**Part 2** How does the expected number of completed passes for a "Midfielder" (`MF`) compare to that of a "Forward" (`FW`), assuming they have the same number of touches?
+**Part 2** How does the expected number of completed passes for a 
+"Midfielder" (`MF`) compare to that of a "Forward" (`FW`), assuming 
+they have the same number of touches?
 
-**Part 3** At a 5% significance level, are the dummy variables you created for "Midfielder" (`MF`) and "Defender" (`DF`) statistically significant predictors?
+**Part 3** At a 5% significance level, are the dummy variables you 
+created for "Midfielder" (`MF`) and "Defender" (`DF`) statistically 
+significant predictors?
 
-**Part 4** San Diego FC is scouting a Midfielder who averages 90 touches per game. Using your model, what is your prediction for his expected number of completed passes?
+**Part 4** San Diego FC is scouting a Midfielder who averages 90 touches 
+per game. Using your model, what is your prediction for his expected 
+number of completed passes?
 
 | Part       | Answer Selection |
 |:-----------|:-----------------|
@@ -267,10 +286,13 @@ Finally, we refine the quiz parameters. This step allows you to set the official
 update_quiz(canvas, course_id, quiz_id, quiz_params = list(
   title = "Individual Assignment 2: European Scouting Challenge",
   description = "<h3>Instructions</h3>
-    <p>Please download the dataset provided for each question and use Excel/R to complete your work.</p>
-    <p><strong>Reminder:</strong> Every student receives a unique dataset. Your correct answers will be unique to your data.</p>",
-  published = FALSE # Keep it hidden until you verify the bank
+    <p>Please download the dataset provided for each question 
+    and use Excel/R to complete your work.</p>
+    <p><strong>Reminder:</strong> Every student receives a unique dataset. 
+    Your correct answers will be unique to your data.</p>",
+  published = FALSE # Keep it hidden until you are ready
 ))
+
 ```
 
 ## Conclusion
