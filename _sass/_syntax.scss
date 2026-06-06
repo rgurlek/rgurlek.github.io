@@ -11,25 +11,33 @@ div.highlighter-rouge, figure.highlight {
   background-color: $code-background-color;
   box-shadow: $box-shadow;
 
+  /* Hide the default static icon */
   &:before {
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding: 0.5em;
-    background-color: $lighter-gray;
-    content: "\f121";
-    font-family: "fontawesome" !important;
-    font-size: $type-size-6;
-    line-height: 1;
-    text-transform: none;
-    speak: none;
+    display: none;
+  }
+}
+
+.copy-btn {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  padding: 0.5em;
+  background-color: $lighter-gray;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  color: $text-color;
+  cursor: pointer;
+  font-size: 0.8em;
+  z-index: 10;
+  transition: background-color 0.2s;
+
+  &:hover {
+    background-color: darken($lighter-gray, 5%);
   }
 
-  .highlight {
-    margin: 0;
-    font-family: $monospace;
-    font-size: 0.85em;
-    line-height: 1.8;
+  i {
+    width: 1.2em;
+    text-align: center;
   }
 }
 

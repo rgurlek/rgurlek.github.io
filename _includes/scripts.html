@@ -1,3 +1,36 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+  $(document).ready(function() {
+    // Add copy button to each code block
+    $('div.highlighter-rouge, figure.highlight').each(function() {
+      const container = $(this);
+      const copyBtn = $('<button class="copy-btn"><i class="fas fa-copy"></i></button>');
+      container.append(copyBtn);
+
+      copyBtn.on('click', function() {
+        const codeElement = container.find('code').first();
+        const codeText = codeElement.text();
+
+        // Use the Clipboard API
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(codeText).then(function() {
+            // Visual feedback: change icon to check
+            copyBtn.html('<i class="fas fa-check"></i>');
+            copyBtn.css('background-color', '#d4edda');
+            
+            // Revert back after 2 seconds
+            setTimeout(function() {
+              copyBtn.html('<i class="fas fa-copy"></i>');
+              copyBtn.css('background-color', '');
+            }, 2000);
+          }).catch(function(err) {
+            console.error('Failed to copy: ', err);
+          });
+        }
+      });
+    });
+  });
+</script>
+
 {% include /comments-providers/scripts.html %}
