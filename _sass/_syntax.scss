@@ -15,6 +15,13 @@ div.highlighter-rouge, figure.highlight {
   &:before {
     display: none;
   }
+   
+   .highlight {
+    margin: 0;
+    font-family: $monospace;
+    font-size: 0.85em;
+    line-height: 1.8;
+  }
 }
 
 .copy-btn {
