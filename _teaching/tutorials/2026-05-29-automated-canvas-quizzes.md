@@ -22,8 +22,6 @@ Manual quiz entry in Canvas is tedious and prone to error. In this approach, the
 ## Motivation: Accountability Through Uniqueness
 I design realistic data-driven business challenges for individual assignments. By ensuring every student has a unique "correct" answer based on their specific dataset, I can encourage peer collaboration while strictly enforcing individual accountability. Students can discuss methods and formulas, but they cannot simply 'borrow' answers.
 
-![Student view of the Canvas Quiz](/images/canvas-quiz.png)
-   2 {: .align-center}
 
 ---
 
@@ -175,6 +173,11 @@ solution_list <- paste(sols, collapse = "|")
 The Question section uses Markdown to present the case study narrative. We leverage R inline code to customize the experience for each student.
 
 Notice the Markdown table at the end of the question block. This table is not just for formatting text; it acts as a layout grid for the interactive quiz elements. The `##ANSWER##` tags (known as "Cloze" placeholders) tell Canvas exactly where to embed the dropdown menus or numerical input boxes that students will interact with.
+
+<figure>
+  <img src="/images/canvas-quiz.png" alt="Student view of the Canvas Quiz">
+  <figcaption>Student view of the Canvas Quiz showing the randomized dropdown menus.</figcaption>
+</figure>
 
 ````markdown
 Question
