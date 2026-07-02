@@ -6,7 +6,7 @@ author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  hide_description: true
+  actions: []
 excerpt: "Interactive analytics teaching tools and practical tutorials for business analytics instructors."
 ---
 
