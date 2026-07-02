@@ -3,3 +3,5 @@ _site/
 .Rproj.user
 .Rhistory
 *.Rproj
+.agents/
+_docs/

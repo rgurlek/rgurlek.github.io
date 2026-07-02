@@ -2,6 +2,7 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
+hide_title: true
 author_profile: true
 header:
   overlay_color: "#000"
