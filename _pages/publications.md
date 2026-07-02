@@ -19,6 +19,32 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
    <details><summary> Abstract </summary> <br> Budgeting and planning processes require medium-term sales forecasts with marketing scenarios. The complexity in modern retailing necessitates consistent, automatic forecasting and insight generation. Remedies to the high dimensionality problem have drawbacks; black box machine learning methods require voluminous data and lack insights, while regularization may bias causal estimates in interpretable models. <br> The proposed FAIR (Fully Automatic Interpretable Retail Forecasting) method supports the retail planning process with multi-step-ahead category-store level forecasts, scenario evaluations, and insights. It considers category-store-specific seasonality, focal- and cross-category marketing, and adaptive base sales while dealing with regularization-induced confounding. <br> We show, with three chains from the IRI dataset involving 30 categories, that regularization-induced confounding decreases forecast accuracy. By including focal- and cross-category marketing, as well as random disturbances, forecast accuracy is increased. FAIR is more accurate than the black box machine learning method Boosted Trees and other benchmarks while also providing insights that are in line with the marketing literature. </details>
 
 ### Under Review
+- R Gürlek, DS KC. [Generative AI and Physician Productivity](
+  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6755362).
+	<details><summary> Abstract </summary> <br> Clinical documentation
+	imposes a significant burden on healthcare providers, consuming substantial
+	clinician time and contributing to after-hours work that extends well beyond
+	the clinical day. We study whether a rapidly diffusing generative AI
+	application, ambient clinical documentation, can meaningfully reduce this
+	burden. We partner with a large East Coast healthcare system that
+	implemented an ambient AI tool across a range of outpatient settings and
+	provider types. We link detailed adoption and utilization data to
+	operational outcomes measured in the EHR: note activity time, total EHR
+	time, after-hours documentation, and productivity measures tied to
+	reimbursement, specifically relative value units (RVUs) and patient
+	charges. Leveraging staggered adoption, we employ a difference-in-
+	differences design complemented by models that exploit variation in
+	utilization intensity. We find that adoption reduces note activity time by
+	approximately 12% on average, with reductions exceeding 20% among higher-
+	utilization adopters. The benefits arise immediately, extend to reductions
+	in total EHR time and after-hours work, and are accompanied by increases in
+	RVUs and charges. Effects are heterogeneous and scale with intensity of
+	use. The largest gains accrue to less experienced clinicians, advanced
+	practice providers, and primary care settings. Taken together, the findings
+	provide strong evidence that ambient GenAI can simultaneously reduce
+	administrative burden and improve operational and financial performance
+	across a wide range of provider types and practice contexts. </details>
+
 - R Gürlek, F de Véricourt, DKK Lee. [Boosted Generalized Normal Distributions: Integrating Machine Learning with Operations Knowledge](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4906838).
 	<details><summary> Abstract </summary> <br> Applications of machine learning (ML) techniques to operational settings often face two challenges: i) ML methods mostly provide point predictions whereas many operational problems require distributional information; and ii) They typically do not incorporate the extensive body of knowledge in the operations literature, particularly the findings that characterize specific distributions. We introduce a novel methodology, the boosted Generalized Normal Distribution (<em>b</em>GND), to address these challenges. <em>b</em>GND leverages gradient boosted trees to flexibly estimate the parameters of the GND as functions of covariates, and can be used to model a wide range of parametric distributions encountered in operations. We establish <em>b</em>GND's statistical consistency, thereby extending this key property to special cases studied in the ML literature that lacked such guarantees. Using data from a large academic emergency department in the U.S., we show that the distributional forecasts of patient wait and service times can be meaningfully improved by leveraging findings from the healthcare operations literature. Relative to forecasts from the distribution-agnostic ML benchmark, <em>b</em>GND can potentially improve patient satisfaction by 9% and increase hospital earnings by \$120,000 per 10,000 visits. Our work underscores the importance of integrating ML with operations knowledge to enhance distributional forecasts. </details>
 
@@ -30,4 +56,7 @@ You can also find my articles on my [Google Scholar profile](https://scholar.goo
    <details><summary> Abstract </summary> <br> <b>Problem definition:</b> Sequencing of consumption has significant implications for enjoyment of experiential goods and derived ex-post utility due to psychological and physiological effects, such as satiation, habituation, or memory decay. In this paper, we examine the effect of consumption sequencing on ex-ante valuations of bundles, with the goal of increasing consumer surplus and revenue. <br> <b>Methodology/results:</b> We conduct a lab experiment to elicit preferences and willingness to pay for three bundles of goods consisting of two high (H) type products and one low (L) type product that vary only in the position of low type product. We find that consistent with the satiation model, 53% of subjects prefer the HLH sequence, placing an approximately 2.7% greater ex-ante valuation over the second-best LHH sequence. The LHH sequence is optimal under the acclimation, and memory decay model and preferred by 31% of subjects. The front-loaded HHL sequence, optimal under the discounted expected utility model, is preferred by 16% of subjects. We estimate the parameters of the satiation model and find that satiation effects are significant with a half-life of 17 hours. <br> <b>Managerial implications:</b> Using the calibrated satiation model, we optimize consumption for each period and find that, compared to a bundle with equal consumption in each period, the optimal bundle has a greater selling probability and achieves a revenue lift in excess of 4.5%. </details>
 
 ### Work-In-Progress:
-- Designing and Comparing Custom Interventions to Mitigate Product Returns
+- From Configuration to Conversion: Evidence from a Large-Scale
+  Field Experiment
+- Can Internal Carbon Policies Fill the Emissions Gap Left by External
+  Policies? Evidence from a multinational Corporation
