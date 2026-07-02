@@ -1,12 +1,12 @@
 ---
 layout: archive
-title: "Teaching & Learning Hub"
+title: "Teaching"
 permalink: /teaching/
 author_profile: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /images/teaching-header.jpg
+  hide_description: true
 excerpt: "Interactive analytics teaching tools and practical tutorials for business analytics instructors."
 ---
 
