@@ -3,7 +3,7 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 hide_title: true
-author_profile: true
+author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -46,10 +46,6 @@ excerpt: "Interactive analytics teaching tools and practical tutorials for busin
       <h3 class="archive__item-title" itemprop="headline">
         <a href="{{ post.url | prepend: base_path }}" rel="permalink">{{ post.title }}</a>
       </h3>
-      <p class="page__meta" style="color: #888; font-size: 0.8em;">
-        <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }} &nbsp;
-        <i class="fa fa-fw fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}
-      </p>
       <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | strip_html | truncate: 200 }}</p>
     </article>
   </div>
